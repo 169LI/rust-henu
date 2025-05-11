@@ -1,0 +1,59 @@
+题目：
+编写一个Rust程序，使用serde和serde_json实现复杂的JSON数据处理功能：
+
+1. 定义以下结构体并使用serde的Serialize和Deserialize特性：
+   - Author结构体：包含name（String）、country（String）。
+   - Book结构体：包含id（u32）、title（String）、authors（Vec<Author>）、metadata（Option<Metadata>）。
+   - Metadata结构体：包含publish_year（u32）、genres（Vec<String>）。
+
+2. 实现以下功能：
+   - 在main函数中，创建包含至少两本书的Vec<Book>，其中一本书有metadata，另一本的metadata为None。
+   - 将整个Vec<Book>序列化为格式化的JSON字符串并打印。
+   - 将该JSON字符串保存到文件（例如books.json）。
+   - 从books.json文件读取JSON字符串，并反序列化回Vec<Book>。
+   - 打印反序列化后的书籍数量和每本书的标题。  
+
+3. 额外要求：
+   - 使用std::fs模块进行文件读写操作。
+   - 实现一个函数add_book，接受Vec<Book>和一个新的Book实例，将新书添加到向量并返回更新后的Vec<Book>。
+   - 在main函数中调用add_book添加一本书，然后再次序列化并保存到文件。
+   - 包含完整的错误处理，使用Result类型并妥善处理serde_json和文件操作的错误。
+
+提示：
+- 在Cargo.toml中添加依赖：serde = { version = "1.0", features = ["derive"] } 和 serde_json = "1.0"。
+- 使用serde_json::to_string_pretty和serde_json::from_str进行JSON序列化和反序列化。
+- 使用std::fs::write和std::fs::read_to_string进行文件操作。
+- 考虑使用?操作符简化错误传播。
+
+books.json示例：
+[
+    {
+        "id": 1,
+        "title": "The Rust Programming Language",
+        "authors": [
+            {
+                "name": "Steve Klabnik",
+                "country": "USA"
+            },
+            {
+                "name": "Carol Nichols",
+                "country": "USA"
+            }
+        ],
+        "metadata": {
+            "publish_year": 2018,
+            "genres": ["Programming", "Technical"]
+        }
+    },
+    {
+        "id": 2,
+        "title": "Learning Rust",
+        "authors": [
+            {
+                "name": "John Doe",
+                "country": "UK"
+            }
+        ],
+        "metadata": null
+    }
+]
