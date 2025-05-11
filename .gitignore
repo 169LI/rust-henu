@@ -1,3 +1,10 @@
-/.idea
-.vscode
-.env
+# IntelliJ IDEA 相关文件
+.idea/
+*.iml
+
+# VS Code 相关文件
+.vscode/
+
+# Rust 相关文件
+Cargo.lock
+target/
