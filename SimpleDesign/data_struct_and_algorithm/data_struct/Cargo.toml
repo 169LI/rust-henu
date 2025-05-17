@@ -36,7 +36,13 @@ path = "src/link_example.rs"
 name = "link_achieve"
 path = "src/link_achieve.rs"
 
+[[bin]]
+name = "slice_example"
+path = "src/slice_example.rs"
 
+[[bin]]
+name = "string_example"
+path = "src/string_example.rs"
 
 
 
