@@ -28,6 +28,14 @@ path = "src/deque_achieve.rs"
 name = "deque_example"
 path = "src/deque_example.rs"
 
+[[bin]]
+name = "link_example"
+path = "src/link_example.rs"
+
+[[bin]]
+name = "link_achieve"
+path = "src/link_achieve.rs"
+
 
 
 
