@@ -7,6 +7,7 @@ members = [
     "basic_data_structure",
     "search_algorithm",
     "sort_algorithm",
+    "binary_tree",
 ]
 resolver = "2"  # 显式指定解析器版本
 
