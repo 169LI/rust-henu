@@ -1,0 +1,33 @@
+[package]
+name = "search_algorithm"
+version.workspace = true
+edition.workspace = true
+
+
+[[bin]]
+name = "search_algorithm_example"
+path = "src/sequential_search_example.rs"
+
+[[bin]]
+name = "sequential_search_achieve"
+path = "src/sequential_search_achieve.rs"
+
+[[bin]]
+name = "binary_search_achieve"
+path = "src/binary_search_achieve.rs"
+
+[[bin]]
+name = "binary_search_example"
+path = "src/binary_search_example.rs"
+
+[[bin]]
+name="interpolation_search"
+path="src/interpolation_search.rs"
+
+
+
+
+
+
+[dependencies]
+
