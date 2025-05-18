@@ -24,8 +24,17 @@ path = "src/binary_search_example.rs"
 name="interpolation_search"
 path="src/interpolation_search.rs"
 
+[[bin]]
+name="hash_search_example"
+path="src/hash_search_example.rs"
 
+[[bin]]
+name="hash_search_achieve"
+path="src/hash_search_achieve.rs"
 
+[[bin]]
+name="chaining_hash_search"
+path="src/chaining_hash_search.rs"
 
 
 
