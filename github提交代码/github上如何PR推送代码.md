@@ -19,7 +19,7 @@ git config --global user.email "你的邮箱"
 ![img.png](../imageall/image/clone演示.png)
 ## 5、修改代码并提交到自己的仓库
 ![img.png](../imageall/image/修改代码.png)
-添加自己的文件就行，不要修改其他文件 可能会造成冲突
+如果不会处理冲突，就只添加自己要添加的文件就行，不要修改其他文件。 
 
 这里可以使用自己ide提供的上传命令，比如 Rustrover：
 ![img.png](../imageall/image/Rustrover演示.png)
