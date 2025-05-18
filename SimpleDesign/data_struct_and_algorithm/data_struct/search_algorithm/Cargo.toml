@@ -36,7 +36,13 @@ path="src/hash_search_achieve.rs"
 name="chaining_hash_search"
 path="src/chaining_hash_search.rs"
 
+[[bin]]
+name="string_search_example"
+path="src/string_search_example.rs"
 
+[[bin]]
+name="kmp_search"
+path="src/kmp_search.rs"
 
 [dependencies]
 
