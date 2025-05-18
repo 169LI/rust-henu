@@ -11,3 +11,4 @@ members = [
 resolver = "2"  # 显式指定解析器版本
 
 [workspace.dependencies]
+rayon = "1.5"

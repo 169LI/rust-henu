@@ -44,5 +44,9 @@ path="src/string_search_example.rs"
 name="kmp_search"
 path="src/kmp_search.rs"
 
-[dependencies]
+[[bin]]
+name="parall_search_example"
+path="src/parallel_search_example.rs"
 
+[dependencies]
+rayon = {workspace = true}
