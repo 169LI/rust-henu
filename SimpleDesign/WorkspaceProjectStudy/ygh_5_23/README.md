@@ -19,12 +19,6 @@ task_management/
 │   ├── Cargo.toml
 │   └── src/
 │       └── main.rs
-├── examples/          # 使用示例
-│   └── basic_usage.rs
-└── tests/            # 测试模块
-    ├── task_model_tests.rs
-    └── utils_tests.rs
-```
 
 ## 功能特点
 
