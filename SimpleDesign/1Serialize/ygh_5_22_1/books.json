@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Rust",
+    "authors": [
+      {
+        "name": "zhangsan",
+        "country": "Us"
+      }
+    ],
+    "metadata": {
+      "publish_year": 2000,
+      "genres": [
+        "programming",
+        "rust"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "title": "Java",
+    "authors": [
+      {
+        "name": "Lisi",
+        "country": "Buzhi"
+      }
+    ],
+    "metadata": null
+  },
+  {
+    "id": 3,
+    "title": "Python",
+    "authors": [
+      {
+        "name": "Wangwu",
+        "country": "China"
+      }
+    ],
+    "metadata": {
+      "publish_year": 2023,
+      "genres": [
+        "programming",
+        "python"
+      ]
+    }
+  }
+]
