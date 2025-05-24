@@ -4,7 +4,5 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-
-[[test]]
-name = "task_model_tests"
-path = "../tests/task_model_tests.rs"
+chrono = { workspace = true }
+utils = { workspace = true }

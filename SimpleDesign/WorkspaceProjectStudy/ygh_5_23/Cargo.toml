@@ -8,5 +8,10 @@ members = [
 [workspace.package]
 version = "0.1.0"
 edition = "2021"
-authors = ["Your Name <your.email@example.com>"]
-description = "A task management system written in Rust" 
+description = "A task management system written in Rust"
+
+[workspace.dependencies]
+rand = "0.8.5"
+chrono = "0.4.31"
+utils = { path = "utils" }
+task_model = { path = "task_model" } 
