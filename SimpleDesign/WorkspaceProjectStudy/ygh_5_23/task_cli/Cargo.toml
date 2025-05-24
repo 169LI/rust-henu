@@ -4,5 +4,5 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-task_model = { path = "../task_model" }
-utils = { path = "../utils" }
+task_model = { workspace = true }
+utils = { workspace = true }
