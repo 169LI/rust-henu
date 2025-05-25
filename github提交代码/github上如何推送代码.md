@@ -22,6 +22,7 @@ git clone https://github.com/169LI/rust-henu.git
 注意事项：
 - 如果推送时出现下图的情况，说明管理员还没有邀请你加入仓库
 ![img.png](../imageall/image/推送.png)
+- 如果推送时出现
 - 提交信息要清晰描述添加的内容
 - 提交前先拉取最新代码：`git pull origin main`
 
