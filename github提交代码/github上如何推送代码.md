@@ -4,14 +4,30 @@
 
 # 一、如果是增添新的文件，给我说一下，我邀请你加入这个仓库。然后直接将这个库克隆到本地，添加新文件后可以直接提交即可：
 
-参考二的1、2,然后......(你补充一下)  后面哪里有问题的 你根据你的情况实际修改一下。如果用图片注意图片放在了哪个的位置
 
+1. 首先需要注册自己的GitHub账号（参考二的1）
+2. 配置Git提交信息（参考二的2）
+3. 等待仓库管理员邀请你加入仓库
+4. 接受邀请后，克隆仓库到本地：
+例如：
+```git
+git clone https://github.com/169LI/rust-henu.git
+```
+5. 在本地添加新文件
+6. 点击提交
+![img.png](../imageall/image/提交.png)
+7. 推送
+![img.png](../imageall/image/推送.png)
 
-
-
+注意事项：
+- 如果推送时出现下图的情况，说明管理员还没有邀请你加入仓库
+![img.png](../imageall/image/推送.png)
+- 提交信息要清晰描述添加的内容
+- 提交前先拉取最新代码：`git pull origin main`
 
 
 # 二、 如果是**修改已有的文件**需要`PR`。也就是下面的步骤：
+## 如果有该仓库的权限，只需要进行第一种情况的6和7
 ## 1、注册自己github账号
     自己探索
 ## 2、配置自己git提交信息
@@ -23,20 +39,33 @@
 git config --global user.name "你的名字" 
 git config --global user.email "你的邮箱"
 ```
-- 查看是否信息配置成功
-  `git config --list`
-## 3、fork要推送的项目
-github地址: `https://github.com/169LI/rust-henu`
+- 查看配置是否成功：
+```git
+git config --list
+```
+
+## 3、Fork项目
+1. 访问项目地址：`https://github.com/169LI/rust-henu`
+2. 点击右上角的"Fork"按钮
+3. 选择你的账号作为目标位置
 
 ![img.png](../imageall/image/fork.png)
 
-这里是你的仓库
+Fork后的仓库会出现在你的账号下：
 
 ![img.png](../imageall/image/fork到自己的仓库下.png)
 
-## 4、克隆自己fork的项目到本地
+## 4、克隆Fork的项目到本地
+
+1. 在你的Fork仓库页面点击"Code"按钮
+2. 复制HTTPS链接
 
 ![img.png](../imageall/image/Clone_http.png)
+
+3. 在本地执行克隆命令：
+```git
+git clone [你复制的https链接]
+```
 
 ![img.png](../imageall/image/clone演示.png)
 
